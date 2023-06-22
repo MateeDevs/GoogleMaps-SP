@@ -1,7 +1,4 @@
 .DS_Store
-/.build
-xcuserdata/
-.swiftpm/config/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
+.build
 Build/
+GoogleFrameworks/

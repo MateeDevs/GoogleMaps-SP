@@ -1,7 +1,6 @@
 #!/bin/bash
 
 BUILD_DIRECTORY="Build"
-CARTHAGE_XCFRAMEWORK_DIRECTORY="Carthage/Build/"
 
 function archive_project() {
   project_name=$1
@@ -68,6 +67,9 @@ function build_xcproject_project() {
   prepare
 
   cd $BUILD_DIRECTORY
+
+  # Clean checksum file
+  > checksum
 
   create_xcframework "GoogleMaps" "GoogleMaps"
   create_xcframework "GoogleMaps" "GoogleMapsBase"
