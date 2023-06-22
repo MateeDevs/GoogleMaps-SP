@@ -8,14 +8,14 @@ This project rebuilds Google's beta XCFrameworks so they can be added as a depen
 
 ## Requirements
 
-* [iOS 13.0](https://wikipedia.org/wiki/IOS_13) or later
+* [iOS 14.0](https://wikipedia.org/wiki/IOS_14) or later
 * [Xcode 14.0](https://developer.apple.com/xcode) or later
 
 ## Add as a dependecy to your Swift Package
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/MateeDevs/GoogleMaps-SP.git", .upToNextMinor(from: "7.4.0"))
+  .package(url: "https://github.com/MateeDevs/GoogleMaps-SP.git", .upToNextMinor(from: "8.0.0"))
 ]
 ```
 
